@@ -1,0 +1,30 @@
+{
+  "name": "console-caller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "phra <greensoncio@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "example": "node examples/example.js",
+    "lint-fix": "standard --fix index.js examples/*js tests/*.js",
+    "watch": "npm-watch",
+    "coverage": "tap --cov tests/*.js",
+    "test": "tap tests/*.js"
+  },
+  "watch": {
+    "test": {
+      "patterns": [
+        "."
+      ],
+      "extensions": "js"
+    }
+  },
+  "engines": {
+    "node": ">6.0.0"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.1.8",
+    "standard": "^9.0.1",
+    "tap": "^10.3.0"
+  }
+}
