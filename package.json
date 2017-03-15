@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "phra <greensoncio@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/phra/console-caller.git",
   "description": "console-caller lets you easily print the call site of console functions. It can be useful in large codebases where there are a lot of logs. Do you want to easily find out which line of your code is printing that thing? This is the right module for you!",
   "scripts": {
     "example": "env NODE_ENV=development node examples/example.js",
