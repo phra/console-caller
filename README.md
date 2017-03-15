@@ -1,4 +1,4 @@
-# console-caller
+# console-caller [![Build Status](https://travis-ci.org/phra/console-caller.svg?branch=master)](https://travis-ci.org/phra/console-caller) [![Coverage Status](https://coveralls.io/repos/github/phra/console-caller/badge.svg?branch=master)](https://coveralls.io/github/phra/console-caller?branch=master)
 
 `console-caller` lets you easily print the call site of console functions. It can be useful in large codebases where there are a lot of logs. Do you want to easily find out which line of your code is printing that thing? This is the right module for you!
 
