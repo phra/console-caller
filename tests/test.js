@@ -20,7 +20,6 @@ const consoleMock = {
 test('console-caller log works', (test) => {
   const consoleCallerInstance = consoleCaller(consoleMock)
   test.plan(1)
-  console.log(consoleCallerInstance.log('test'))
   test.ok(regex.test(consoleCallerInstance.log('test')), 'caller property matches the test regex')
 })
 
