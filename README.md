@@ -40,7 +40,7 @@ const console = require('console-caller')(Object.assign(Object.create(null), glo
 If you are using some abstractions between your logging functions and the real call to console APIs, you can set an arbitrary offset when splitting the stack trace. In this way you can also use this utility when a custom library is used for logging.
 
 ```javascript
-const console = require('../')(Object.assign({}, ((typeof window !== 'undefined' && window.console) || (typeof global !== 'undefined' && global.console))), 10)
+const console = require('console-caller')(Object.assign({}, ((typeof window !== 'undefined' && window.console) || (typeof global !== 'undefined' && global.console))), 10)
 // Note the "10" as second argument. That is the offset of the splitted stack trace
 ```
 
