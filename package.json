@@ -25,8 +25,8 @@
     "node": ">6.0.0"
   },
   "devDependencies": {
-    "npm-watch": "^0.1.8",
-    "standard": "^9.0.1",
-    "tap": "^10.3.0"
+    "npm-watch": "^0.3.0",
+    "standard": "^11.0.1",
+    "tap": "^11.1.3"
   }
 }
