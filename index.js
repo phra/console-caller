@@ -1,6 +1,6 @@
 'use strict'
 
-const OFFSET = process && process.version[1] > 6 ? 3 : 4
+const OFFSET = process && parseInt(process.version.slice(1).split('.')[0], 10) > 6 ? 3 : 4
 const consoleCaller = (console = ((typeof window !== 'undefined' && window.console) || (typeof global !== 'undefined' && global.console)), LINE_OFFSET = OFFSET) => {
   const functionsKeys = Object.keys(console).filter(k => typeof console[k] === 'function')
   const COLUMN_OFFSET = 7
