@@ -27,6 +27,6 @@
   "devDependencies": {
     "npm-watch": "^0.5.0",
     "standard": "^14.0.0",
-    "tap": "^14.0.0"
+    "tap": "^14.9.0"
   }
 }
